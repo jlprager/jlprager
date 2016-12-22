@@ -1,0 +1,92 @@
+/*DOCUMENT*/
+html, body {
+	height: 100%
+}
+body {
+	font-family : "Lato", sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+img {
+	max-height : 100%;
+	max-width : 100% ;
+}
+
+/*HERO & BANNER*/
+
+#hero {
+	background-image : url("https://67.media.tumblr.com/f8eaab7219c9ec5cf018345f4c3b24e9/tumblr_nhkumcFtxm1twduh2o1_500.gif");
+	padding : 1em 0;
+	background-repeat : no-repeat;
+	background-position : 50% 50%;
+	background-size : cover;
+	text-align : center;
+}
+
+.circle {
+	background-color: gray;
+	border-radius : 50%;
+	height : 25em;
+	width : 25em;
+	display : inline-block;
+	text-align : center;
+}
+
+#genInfo {
+	padding : 3em 0;
+	text-align : center;
+}
+
+h1, h3, h5 {
+	margin : 0;
+}
+
+/*NAVIGATION*/
+
+#sliderNav {
+	font-size: 0;
+	height : 50px;
+	margin-top : 15px;
+	width : 100%;
+	text-align : center;
+	padding: 0;
+}
+
+#sliderNav li{
+	font-size: 16px;
+	display : inline;
+	list-style : none; 
+	padding : 10px 12px;
+	border : solid 1px black;
+}
+
+/*SLIDER CONTENT*/
+div:focus {
+	outline: none;
+}
+
+.container {
+	width : 100% !important;
+	margin : 1em !important;
+	max-width : 100% !important;
+	/*height : 100% !important;*/
+}
+
+.row [class^="col"] {
+	margin : 10px !important;
+}
+
+/*WEBDEV ASSETS*/
+#googlePlaces img{
+	border : 1px solid grey;
+}
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: auto;
+    min-height: 1px;
+}
